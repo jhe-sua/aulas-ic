@@ -2,6 +2,8 @@
 
 ## comandos:
 
+ - sed
+
 ## conhecimentos:
 
  - Expressão regular

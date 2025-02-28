@@ -1,0 +1,7 @@
+# Coisas para aprender
+
+## comandos:
+
+## conhecimentos:
+
+ - Expressão regular

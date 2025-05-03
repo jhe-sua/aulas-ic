@@ -1,0 +1,25 @@
+============Instalação correta do LaTex=============
+
+1. instalar o texlive base:
+
+	sudo apt install texlive-base
+
+2. instalar binaries e o idioma
+
+	sudo apt install texlive-binaies && sudo apt install texlive-lang-portuguese
+
+
+3. para a utilização no vscode, foi baixada a extenção "LaTex Workshop". se for feito a partir de uma maquina virtual é necessário reiniciar a maquina virtual.
+
+4. apos isso intalamos o latexmk
+
+	apt search latexmk #para procurar pelo latexmk
+	sudo apt install latexmk #para instalar
+
+5. faltaram alguns pacotes então precisamos tambem de pacotes extras do texlive
+
+	sudo apt install texlive-latex-extra
+	
+6. instalamos o latex-science
+
+	sudo apt install texlive-science 

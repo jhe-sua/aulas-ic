@@ -15,7 +15,7 @@ print(numerosP, "a quantidade de numeros primos é" ,len(numerosP))
 numerosPl = []
 
 for num in numerosP:
-    #iinvertendo numero
+    #invertendo numero
     q = int(str(num)[::-1])
     if q in numerosP:
         numerosPl.append(num)

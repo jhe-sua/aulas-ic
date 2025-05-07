@@ -57,7 +57,6 @@ def fib(n):
 fib(10)
 
 #trabalhando com tuplas
-
 for n, i in d.items():
     print(f"nome: {n}\nidade: {i}\n---")
 

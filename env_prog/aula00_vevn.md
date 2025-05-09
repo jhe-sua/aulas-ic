@@ -2,7 +2,7 @@
 
 primeiro é necessario criar uma pasta vazia pr começar o processo.
 
-1. entramos no seguinte seguinte site 
+1. entramos no seguinte site 
     https://github.com/astral-sh/uv
 
     uv: gerenciador de pacotes e projetos, ele permite manter a configuração de um projeto separada de outro projeto
@@ -45,3 +45,8 @@ OBS: o melhor seria instalar o uv pelo curl, mas se não for possivel intalamos 
     ex: $uv add numpy
 
     isso fara com que a dependencia numpy seja baixada e acresentada automaticamente no arquivo pyproject.toml 
+
+
+Para executar nosso venv diretamente no terminal, executamos:
+
+    source /<nome do ambiente>/bin/activate.<terminal>

@@ -12,4 +12,5 @@ def minha_funcao():
 
 if __name__ == "__main__":
     minha_funcao()
-    print(locals() == globals())
+    print(locals())
+    print(math.__name__)
